@@ -12,7 +12,7 @@ import { Container } from "@mui/system";
 import React from "react";
 import TerminalIcon from "@mui/icons-material/Terminal";
 import MenuIcon from "@mui/icons-material/Menu";
-import FileDownloadIcon from "@mui/icons-material/FileDownload";
+// import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 const Navbar = () => {
   const pages = ["About", "Experience", "Projects", "Blog"];
@@ -96,7 +96,7 @@ const Navbar = () => {
                 ))}
               </Menu>
             </Box>
-            <Typography
+            {/* <Typography
               variant="h5"
               noWrap
               component="a"
@@ -113,7 +113,7 @@ const Navbar = () => {
               }}
             >
               LOGO
-            </Typography>
+            </Typography> */}
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
                 <Button
@@ -127,9 +127,9 @@ const Navbar = () => {
             </Box>
 
             <Box sx={{ flexGrow: 0 }}>
-              <Button variant="contained" startIcon={<FileDownloadIcon />}>
+              {/* <Button variant="contained" startIcon={<FileDownloadIcon />}>
                 Download CV
-              </Button>
+              </Button> */}
               {/* <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                   <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />

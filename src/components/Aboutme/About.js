@@ -6,6 +6,7 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import { Typography } from "@mui/material";
+import { TimelineOppositeContent } from "@mui/lab";
 
 const About = () => {
   return (
@@ -16,34 +17,48 @@ const About = () => {
       <div className="right">
         <Timeline position="alternate">
           <TimelineItem>
+            <TimelineOppositeContent className="timeline">
+              Nov 2022 - Present
+            </TimelineOppositeContent>
+
             <TimelineSeparator>
-              <TimelineDot />
+              <TimelineDot variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Eat</TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>Code</TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineDot />
-            <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography variant="h6" component="span">
-                Eat
+            <TimelineContent>
+              <Typography variant="h5" component="span" className="companyText">
+                Frontend Developer
               </Typography>
-              <Typography>Because you need strength</Typography>
+              <Typography>Cars24</Typography>
             </TimelineContent>
           </TimelineItem>
-          {/* <TimelineItem>
+          <TimelineItem>
+            <TimelineOppositeContent className="timeline">
+              Oct 2020 - Oct 2021
+            </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot />
+              <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Repeat</TimelineContent>
-          </TimelineItem> */}
+            <TimelineContent>
+              <Typography variant="h5" component="span" className="companyText">
+                UI Developer
+              </Typography>
+              <Typography>Standard Chartered bank</Typography>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineOppositeContent className="timeline">
+              Jun 2019 - Oct 2020
+            </TimelineOppositeContent>
+            <TimelineDot />
+            <TimelineContent>
+              <Typography variant="h5" component="span" className="companyText">
+                Trainee
+              </Typography>
+              <Typography>Standard Chartered bank</Typography>
+            </TimelineContent>
+          </TimelineItem>
         </Timeline>
       </div>
     </div>

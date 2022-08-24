@@ -97,6 +97,11 @@ i:hover {
   font-weight: 700;
 }
 
+.timeline {
+  color: #62605d;
+  font-size: 0.5rem;
+}
+
 .title {
   font-size: 100px;
   display: flex;
@@ -225,7 +230,7 @@ i {
   background: #fefefe !important;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .home .left {
     display: none;
   }
@@ -249,7 +254,7 @@ i {
     justify-content: center;
   }
   .title {
-    font-size: 107px;
+    font-size: 80px;
     display: flex;
     transform: rotate(-180deg);
     writing-mode: tb-lr;
@@ -261,14 +266,9 @@ i {
 
   .projects .left {
     width: 30%;
-    display: flex;
-    flex: 0.2 1;
-    flex-direction: column;
-    justify-content: center;
-    padding: 24px;
   }
   .project-title {
-    font-size: 107px;
+    font-size: 73px;
     display: flex;
     transform: rotate(-180deg);
     writing-mode: tb-lr;
@@ -276,7 +276,7 @@ i {
   }
 
   .projects .right {
-    width: 80%;
+    width: 70%;
     gap: 20px;
     padding: 25px;
   }
@@ -285,7 +285,7 @@ i {
     padding: 17px;
   }
   .blog-title {
-    font-size: 107px;
+    font-size: 90px;
     display: flex;
     transform: rotate(-180deg);
     writing-mode: tb-lr;
@@ -297,5 +297,14 @@ i {
   }
 }
 
-@media screen and (min-width: 900px) {
-} */
+@media screen and (max-width: 545px) {
+  .about-text {
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .about .right .companyText {
+    font-size: 1rem;
+  }
+}

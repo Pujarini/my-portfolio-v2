@@ -22,7 +22,9 @@ const Blogs = () => {
       </div>
       <div className="right">
         <Swiper
-          direction={"vertical"}
+          slidesPerView={1}
+          spaceBetween={30}
+          direction={"horizontal"}
           pagination={{
             clickable: true,
           }}
@@ -32,7 +34,7 @@ const Blogs = () => {
           {blogData.map((item) => {
             return (
               <SwiperSlide>
-                <Card sx={{ maxWidth: 400 }}>
+                <Card sx={{ maxWidth: 300 }}>
                   <CardMedia
                     component="img"
                     alt="green iguana"
