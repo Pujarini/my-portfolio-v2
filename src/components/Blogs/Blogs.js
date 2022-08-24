@@ -1,0 +1,65 @@
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
+import "swiper/css/bundle";
+import {
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Typography,
+} from "@mui/material";
+import { blogData } from "../../blogs";
+
+const Blogs = () => {
+  return (
+    <div className="blogs">
+      <div className="left">
+        <h1 className="blog-title">BLOGS</h1>
+      </div>
+      <div className="right">
+        <Swiper
+          direction={"vertical"}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          {blogData.map((item) => {
+            return (
+              <SwiperSlide>
+                <Card sx={{ maxWidth: 400 }}>
+                  <CardMedia
+                    component="img"
+                    alt="green iguana"
+                    height="140"
+                    image={item.image}
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                      {item.topic}
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      Lizards are a widespread group of squamate reptiles, with
+                      over 6,000 species, ranging across all continents except
+                      Antarctica
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Button size="small">See blog</Button>
+                  </CardActions>
+                </Card>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
+    </div>
+  );
+};
+
+export default Blogs;
