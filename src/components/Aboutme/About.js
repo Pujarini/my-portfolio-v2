@@ -18,7 +18,7 @@ const About = () => {
         <Timeline position="alternate">
           <TimelineItem>
             <TimelineOppositeContent className="timeline">
-              Nov 2022 - Present
+              Nov 2021 - Present
             </TimelineOppositeContent>
 
             <TimelineSeparator>
