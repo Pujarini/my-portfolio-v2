@@ -12,7 +12,7 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
-import { blogData } from "../../blogs";
+import { blogData } from "../../blogsData";
 
 const Blogs = () => {
   return (
@@ -46,9 +46,7 @@ const Blogs = () => {
                       {item.topic}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Lizards are a widespread group of squamate reptiles, with
-                      over 6,000 species, ranging across all continents except
-                      Antarctica
+                      {item.description}
                     </Typography>
                   </CardContent>
                   <CardActions>
