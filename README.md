@@ -1,8 +1,9 @@
 ### Todos (Started on 23 August)
- - [x] Desktop version styles added
- - [x] 360px to 600px responsive design added 
- - [x] Add blog links (Done on 25 August)
- - [ ] Work on Navbar functionality using react-router-dom
+ - [x] Desktop version styles added (P0)
+ - [x] 360px to 600px responsive design added (mobile) P0
+ - [x] Add blog links (Done on 25 August) (P0)
+ - [ ] Add download CV functionality
+ - [ ] Work on Navbar functionality using react-router-dom (P0)
  - [ ] Make it based on config
  
  
