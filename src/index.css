@@ -5,6 +5,22 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv {
+  text-decoration: none;
+}
+
+.btnDownload {
+  color: #fefefe !important;
+  border-color: #fefefe !important;
 }
 
 .appbar {
@@ -152,7 +168,7 @@ i:hover {
   gap: 20px;
   flex-wrap: wrap;
   padding: 20px;
-  overflow: scroll;
+  overflow-y: hidden;
 }
 
 /* Button {
@@ -165,7 +181,7 @@ i {
 
 .project-container {
   border: 1px solid;
-  width: 250px;
+  width: 280px;
 }
 
 .blogs {
@@ -280,6 +296,7 @@ i {
     width: 70%;
     gap: 20px;
     padding: 25px;
+    overflow-y: scroll;
   }
   .blogs .left {
     width: 30%;

@@ -16,7 +16,7 @@ import { blogData } from "../../blogsData";
 
 const Blogs = () => {
   return (
-    <div className="blogs">
+    <div className="blogs" id="blogs">
       <div className="left">
         <h1 className="blog-title">BLOGS</h1>
       </div>

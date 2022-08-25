@@ -1,5 +1,4 @@
 import {
-  Button,
   Card,
   CardActionArea,
   CardActions,
@@ -9,13 +8,15 @@ import {
 } from "@mui/material";
 import React from "react";
 import { ProjectWork } from "../../data";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import SmartphoneIcon from "@mui/icons-material/Smartphone";
 
 const Projects = () => {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="left">
         <h2 className=" project-title">MY PROJECTS</h2>
       </div>
@@ -37,20 +38,14 @@ const Projects = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button
-                  size="small"
-                  variant="outlined"
+                <SmartphoneIcon
                   onClick={() => openInNewTab(project.link)}
-                >
-                  <i class="fa-solid fa-link"></i> See Demo
-                </Button>
-                <Button
-                  size="small"
-                  variant="outlined"
+                  style={{ cursor: "pointer" }}
+                />
+                <GitHubIcon
                   onClick={() => openInNewTab(project.code)}
-                >
-                  <i class="fa-solid fa-laptop-code"></i> See Code
-                </Button>
+                  style={{ cursor: "pointer" }}
+                />
               </CardActions>
             </Card>
           );

@@ -10,7 +10,7 @@ import { TimelineOppositeContent } from "@mui/lab";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div class="left">
         <h2 class="title">EXPERIENCE</h2>
       </div>
