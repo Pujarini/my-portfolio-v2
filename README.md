@@ -1,8 +1,10 @@
 ### Todos (Started on 23 August)
  - [x] Desktop version styles added
  - [x] 360px to 600px responsive design added 
- - [ ] Add blog links
+ - [x] Add blog links (Done on 25 August)
  - [ ] Work on Navbar functionality using react-router-dom
+ - [ ] Make it based on config
+ 
  
 ### Packages used
 - Swiper
