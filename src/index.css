@@ -258,6 +258,7 @@ i {
     display: flex;
     transform: rotate(-180deg);
     writing-mode: tb-lr;
+    height: auto;
     writing-mode: vertical-lr;
   }
   .about .right {
