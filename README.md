@@ -5,6 +5,11 @@
  - [x] Add download CV functionality
  - [x] Work on Navbar functionality using react-router-dom (P0)
  - [ ] Make it based on config
+ - [ ] Add profile visits
+ - [ ] Fixed issues reported by people
+ - [ ] Update Projects
+  
+
  
  
 ### Packages used
