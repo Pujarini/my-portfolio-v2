@@ -182,6 +182,7 @@ i {
 .project-container {
   border: 1px solid;
   width: 280px;
+  height: 350px;
 }
 
 .blogs {

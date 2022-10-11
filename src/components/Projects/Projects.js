@@ -27,12 +27,12 @@ const Projects = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  height="140"
+                  height="200"
                   image={project.img}
                   alt="green iguana"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="overline" component="div">
+                  <Typography variant="overline" component="div">
                     {project.name}
                   </Typography>
                 </CardContent>
