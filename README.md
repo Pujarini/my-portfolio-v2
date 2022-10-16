@@ -7,7 +7,17 @@
  - [ ] Make it based on config
  - [ ] Add profile visits
  - [ ] Fixed issues reported by people
- - [ ] Update Projects
+ - [x] Update Projects
+ 
+ Improvements to be done Portfolio
+ 
+  - [ ] Add Animations
+  - [ ] Add picture in mobile view
+  - [ ] Keep consistent font size of all h1 p tags
+  - [ ] Embed Twitter writings
+  - [ ] Make it config based
+  - [ ] Fill experience page and blog page
+  
   
 
  
