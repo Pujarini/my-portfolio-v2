@@ -4,10 +4,18 @@
 // import Crypto from "./assets/crypto.png";
 import Portfolio from "./assets/portfolio.png";
 import Interview from "./assets/interview.png";
+import Wshopfy from "./assets/wshop.png";
 
 export const ProjectWork = [
   {
     id: 1,
+    img: Wshopfy,
+    name: "WShopfy",
+    link: "https://prep-shop.herokuapp.com/",
+    code: "https://github.com/Pujarini/WShopfy",
+  },
+  {
+    id: 2,
     img: Interview,
     name: "InterviewShare",
     link: "https://interview-share.netlify.app/",
@@ -35,7 +43,7 @@ export const ProjectWork = [
   //   code: "https://github.com/Pujarini/covid-tracking-app/tree/master",
   // },
   {
-    id: 2,
+    id: 3,
     img: Portfolio,
     name: "My Portfolio",
     link: "hhttps://pujarinij-portfolio-v2.netlify.app/",
