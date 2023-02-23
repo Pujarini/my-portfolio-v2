@@ -18,6 +18,10 @@
   - [ ] Make it config based
   - [ ] Fill experience page and blog page
   
+  ## Performance
+  
+  https://googlechrome.github.io/lighthouse/viewer/
+  
   
 
  
