@@ -1,34 +1,27 @@
 import Blog from "./assets/blog1.svg";
 import Blog1 from "./assets/blog2.svg";
 import Blog2 from "./assets/blog3.svg";
-import Blog3 from "./assets/blog4.svg";
 
 export const blogData = [
   {
     image: Blog,
-    topic: "How to GIT it?",
-    link: "https://roadsidecoder.hashnode.dev/how-to-git-it",
-    description: `Git is a free and open source distributed "version control system" designed to handle everything from small to very large projects with speed and efficiency.`,
+    topic: "How Web page comes to life?",
+    link: "https://pujarini.hashnode.dev/how-does-your-webpage-come-to-life",
+    description: `Have you ever wondered how a webpage comes to life on your screen?`,
   },
   {
     image: Blog1,
-    topic: "Call, Bind and Apply",
-    link: "https://roadsidecoder.hashnode.dev/javascript-interview-questions-call-bind-and-apply-polyfills-output-based-explicit-binding",
+    topic: "Loading JS code at right time can improve performance",
+    link: "https://pujarini.hashnode.dev/loading-js-code-at-right-time",
     description:
-      "Call, bind and Apply are three super important JavaScript methods that are available to all JavaScript functions, which are used to set the this keyword independent of how the function is called. ",
+      "Do you know that optimizing your code and loading it at the right time can help your websites run faster and more efficiently? ",
   },
   {
     image: Blog2,
-    topic: "This Keyword",
-    link: "https://roadsidecoder.hashnode.dev/javascript-interview-questions-this-keyword-output-based-scope-implicit-binding-etc",
+    topic:
+      "How right format for images can improve the web performance of your website?",
+    link: "https://pujarini.hashnode.dev/web-performance-images",
     description:
-      "this keyword in javascript is arguably one the most confusing topics ever, which sometimes makes even senior developers scratch their heads.",
-  },
-  {
-    image: Blog3,
-    topic: "Objects in JavaScript",
-    link: "https://roadsidecoder.hashnode.dev/javascript-interview-questions-objects-output-based-destructuring-object",
-    description:
-      "In Javascript everything comes down to Objects but what are these Objects? ",
+      "Choosing the right image format can make a big difference in your website's performance. ",
   },
 ];

@@ -35,9 +35,7 @@ const Home = () => {
           >
             <i className="fa-brands fa-linkedin fa-2x fa-beat"></i>
           </span>
-          <span
-            onClick={() => window.open("https://roadsidecoder.hashnode.dev/")}
-          >
+          <span onClick={() => window.open("https://pujarini.hashnode.dev/")}>
             <i className="fa-brands fa-hashnode fa-2x fa-beat"></i>
           </span>
           <span
